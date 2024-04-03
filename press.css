@@ -1,0 +1,10 @@
+.icons i{
+    font-size: 25px;
+    /* color: orange; */
+}
+.icons i:hover{
+    color: black;
+}
+.content a{
+    line-height: 1.2;
+}

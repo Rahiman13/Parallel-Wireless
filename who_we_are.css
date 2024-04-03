@@ -1,0 +1,42 @@
+.hero {
+    padding-top: 34%;
+    /* margin-top: 50px; */
+    /* padding-bottom: 100%; */
+    /* margin-top: 24em; */
+    background-image: url('https://www.parallelwireless.com/wp-content/uploads/2022-Web-Banner-Collage-Who-We-Are-1600x500.jpg');
+    background-size: cover;
+    background-position: center top 100px;
+    background-attachment: scroll;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    z-index: 0;
+    /* Fixed background */
+}
+
+.solution-content {
+    background-color: #f0f0f0;
+    opacity: 0.6;
+}
+
+/* .hero-nav {
+        background-color: #EFEFEF;
+    }
+
+    .active-hero {
+        background-color: orangered !important;
+        color: white !important;
+    } */
+.video-container {
+    background-color: #EFEFEF;
+}
+
+.video {
+    /* padding: 50%; */
+    background-image: url('https://www.parallelwireless.com/wp-content/uploads/parallel-wireless-corporate-overview-2022-1170x658.jpg');
+    background-size: cover;
+    background-position: center top 100px;
+    background-attachment: scroll;
+    background-size: 90% 400px;
+    background-repeat: no-repeat;
+    z-index: 0;
+}

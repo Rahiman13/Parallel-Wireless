@@ -1,0 +1,83 @@
+.hero {
+    padding-top: 34%;
+    /* margin-top: 50px; */
+    /* padding-bottom: 100%; */
+    /* margin-top: 24em; */
+    background-image: url('https://www.parallelwireless.com/wp-content/uploads/technologies-hero.jpg');
+    background-size: cover;
+    background-position: center top 100px;
+    /* background-attachment: fixed; */
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    z-index: 0;
+    /* Fixed background */
+}
+
+.solution-content {
+    background-color: #f0f0f0;
+    opacity: 0.6;
+}
+
+.hero-nav {
+    background-color: #EFEFEF;
+}
+
+.active-hero {
+    background-color: orangered !important;
+    color: white !important;
+}
+
+.features {
+    font-family: "Fira Sans Condensed", sans-serif;
+    color: #3B3936;
+}
+
+.features ul li strong {
+    font-weight: 800;
+    color: black;
+}
+
+.features ul li {
+    font-size: 20px;
+    margin-bottom: 20px;
+    /* display: flex; */
+
+}
+
+.features ul li::before {
+    list-style: circle;
+}
+
+.cards-content img {
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    opacity: 1;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.cards-content img:hover {
+    width: 400px;
+    opacity: 0.6;
+}
+
+.development {
+    font-family: "Fira Sans Condensed", sans-serif;
+    color: #3B3936;
+}
+
+.deploy {
+    font-family: "Fira Sans Condensed", sans-serif;
+    color: #3B3936;
+}
+
+.deploy ul li {
+    margin-bottom: 20px;
+}
+
+.download {
+    background-color: #EFEFEF;
+    z-index: 999;
+}

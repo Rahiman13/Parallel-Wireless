@@ -1,0 +1,39 @@
+.hero {
+    padding-top: 34%;
+    /* margin-top: 50px; */
+    /* padding-bottom: 100%; */
+    /* margin-top: 24em; */
+    background-image: url('htt ps://www.parallelwireless.com/wp-content/uploads/hero-resources.jpg');
+    background-color: #EFEFEF;
+    background-size: cover;
+    background-position: center top 100px;
+    background-attachment: fixed;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    z-index: 0;
+    /* Fixed background */
+}
+
+.solution-content {
+    background-color: #f0f0f0;
+    opacity: 0.6;
+}
+
+.download {
+    background-color: #EFEFEF;
+    z-index: 999;
+}
+
+.info-button a button {
+    background-color: orangered;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.info-button a button:hover {
+    background-color: white;
+    color: orangered;
+}

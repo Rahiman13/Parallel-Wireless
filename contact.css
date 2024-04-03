@@ -1,0 +1,52 @@
+.hero {
+    padding-top: 34%;
+    /* margin-top: 50px; */
+    /* padding-bottom: 100%; */
+    /* margin-top: 24em; */
+    background-image: url('https://www.parallelwirel ess.com/wp-content/uploads/hero-resources.jpg');
+    background-size: cover;
+    background-position: center top 100px;
+    background-attachment: scroll;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    z-index: 0;
+    /* Fixed background */
+}
+
+.solution-content {
+    background-color: #f0f0f0;
+    opacity: 0.6;
+}
+
+/* .hero-nav {
+    background-color: #EFEFEF;
+}
+
+.active-hero {
+    background-color: orangered !important;
+    color: white !important;
+} */
+
+.contact {
+    font-weight: 800;
+    display: flex;
+}
+
+.contact-container {
+    display: flex;
+    font-size: 20px;
+}
+
+.contact-container a {
+    font-weight: 900;
+    color: #FF5100;
+}
+
+.enquire {
+    font-size: 20px;
+}
+
+.enquire a {
+    font-weight: 900;
+    color: #FF5100;
+}

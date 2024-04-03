@@ -1,0 +1,78 @@
+.hero {
+    padding-top: 34%;
+    /* margin-top: 50px; */
+    /* padding-bottom: 100%; */
+    /* margin-top: 24em; */
+    background-image: url('https://www.parallelwireless.com/wp-content/uploads/hero-customers.jpg');
+    background-size: cover;
+    background-position: center top 100px;
+    background-attachment: scroll;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    z-index: 0;
+    /* Fixed background */
+}
+
+.solution-content {
+    background-color: #f0f0f0;
+    opacity: 0.6;
+}
+
+/* .hero-nav {
+            background-color: #EFEFEF;
+        }
+
+        .active-hero {
+            background-color: orangered !important;
+            color: white !important;
+        } */
+.download {
+    background-color: #EFEFEF;
+    z-index: 999;
+}
+
+.info-button a button {
+    background-color: orangered;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.info-button a button:hover {
+    background-color: white;
+    color: orangered;
+}
+
+.benifits {
+    background-image: url('https://www.parallelwireless.com/wp-content/uploads/how-to-buy-bg-1600x575.jpg');
+    background-size: contain;
+    background-position: center top 100px;
+    background-attachment: scroll;
+    background-size: 100% 500px;
+    /* background-repeat: no-repeat; */
+    z-index: 0;
+}
+
+.benifits-container {
+    background-color: #FFFFFFE0;
+    width: 80%;
+    height: 70vh;
+    margin: 0 auto;
+}
+
+.benifits-list-span {
+    color: #3B3936;
+}
+
+.video {
+    /* padding: 50%; */
+    background-image: url('https://www.parallelwireless.com/wp-content/uploads/inland-cellular-video-opt.jpg');
+    background-size: cover;
+    background-position: center top 100px;
+    background-attachment: scroll;
+    background-size: 90% 400px;
+    background-repeat: no-repeat;
+    z-index: 0;
+}

@@ -1,0 +1,89 @@
+/* Hero */
+.slider-container {
+    position: relative;
+    width: 100%;
+    /* max-width: 800px; */
+    margin: auto;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+    height: 550px;
+    /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+}
+
+.slide:nth-child(1) {
+    background-image: url('https://www.parallelwireless.com/wp-content/uploads/website-banner-3.jpg');
+}
+
+.slide:nth-child(2) {
+    background-image: url('https://via.placeholder.com/1100x400?text=');
+}
+
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 10px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    color: white;
+    z-index: 1;
+}
+
+.prev {
+    left: 3px;
+}
+
+.next {
+    right: 3px;
+}
+
+.slide button {
+    font-weight: 700;
+    transition: all ease-in-out 0.3s;
+}
+
+.logo-band-cont {
+    background-image: url('https://www.parallelwireless.com/wp-content/themes/parallel-wireless/assets/img/pattern-bg.jpg');
+    background-position: fixed;
+    background-size: cover;
+    height: 150px;
+}
+
+.slider-item {
+    width: 25%;
+}
+
+#logoSlider img {
+    object-fit: contain;
+}
+
+.careers {
+    background-color: #EFEFEF;
+}
+
+.event-rewards {
+    background-color: #EFEFEF;
+}
+
+.cards-content img {
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    opacity: 1;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.cards-content img:hover {
+    width: 400px;
+    opacity: 0.6;
+}

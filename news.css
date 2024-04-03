@@ -1,0 +1,108 @@
+.hero {
+    padding-top: 34%;
+    /* margin-top: 50px; */
+    /* padding-bottom: 100%; */
+    /* margin-top: 24em; */
+    background-image: url('https://www.parallelwireless.com/wp-content/uploads/hero-resources.jpg');
+    background-size: cover;
+    background-position: center top 100px;
+    background-attachment: scroll;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    z-index: 0;
+    /* Fixed background */
+}
+
+.solution-content {
+    background-color: #f0f0f0;
+    opacity: 0.6;
+}
+
+/* .hero-nav {
+            background-color: #EFEFEF;
+        }
+
+        .active-hero {
+            background-color: orangered !important;
+            color: white !important;
+        } */
+
+.group1 {
+    background-image: url('https://www.parallelwireless.com/wp-content/uploads/in-the-news.jpg');
+    background-position: relative;
+    /* margin-bottom: 40px; */
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 600px 350px;
+    aspect-ratio: 600 / 350;
+    overflow: hidden;
+    opacity: 1;
+
+    transition: all ease-in-out 0.3s;
+}
+
+.group1:hover {
+    background-size: 650px 380px;
+    aspect-ratio: 650/380;
+    opacity: 0.6;
+}
+
+.group2 {
+    background-image: url('https://www.parallelwireless.com/wp-content/uploads/upcomingevent-e1620925173854.png');
+    background-position: relative;
+    /* margin-bottom: 40px; */
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 600px 350px;
+    aspect-ratio: 600 / 350;
+    transition: all ease-in-out 0.3s;
+    opacity: 1;
+
+
+}
+
+.group2:hover {
+    background-size: 650px 380px;
+    aspect-ratio: 650/380;
+    opacity: 0.6;
+}
+
+.group3 {
+    background-image: url('https://www.parallelwireless.com/wp-content/uploads/press-releases-sm.jpg');
+    background-position: relative;
+    /* margin-bottom: 40px; */
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 600px 350px;
+    aspect-ratio: 600 / 350;
+    transition: all ease-in-out 0.3s;
+    opacity: 1;
+
+
+}
+
+.group3:hover {
+    background-size: 650px 380px;
+    aspect-ratio: 650/380;
+    opacity: 0.6;
+}
+
+.group4 {
+    background-image: url('https://www.parallelwireless.com/wp-content/uploads/ourawards.png');
+    background-position: relative;
+    /* margin-bottom: 40px; */
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 600px 350px;
+    aspect-ratio: 600 / 350;
+    transition: all ease-in-out 0.3s;
+    opacity: 1;
+
+
+}
+
+.group4:hover {
+    background-size: 650px 380px;
+    aspect-ratio: 650/380;
+    opacity: 0.6;
+}

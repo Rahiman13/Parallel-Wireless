@@ -1,0 +1,46 @@
+.hero {
+    padding-top: 34%;
+    /* margin-top: 50px; */
+    /* padding-bottom: 100%; */
+    /* margin-top: 24em; */
+    background-image: url('https://www.parallelwireless.com/wp-content/uploads/PrivateLTE-banner-1600x500.jpg');
+    background-size: cover;
+    background-position: center top 100px;
+    /* background-attachment: fixed; */
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    z-index: 0;
+    /* Fixed background */
+}
+
+.solution-content {
+    background-color: #f0f0f0;
+    opacity: 0.6;
+}
+
+.hero-nav {
+    background-color: #EFEFEF;
+}
+
+.active-hero {
+    background-color: orangered !important;
+    color: white !important;
+}
+
+.info-button a button {
+    background-color: orangered;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.info-button a button:hover {
+    background-color: white;
+    color: orangered;
+}
+
+.optus {
+    background-color: #000000B3;
+}
